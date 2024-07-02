@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 
 
-def feature_importance_analysis(X, y_heartattack, name_plot,disease):
+def feature_importance_analysis(X, y_heartattack, name_plot, disease):
     # Define and fit the model
     rf = RandomForestRegressor(random_state=42)
 
