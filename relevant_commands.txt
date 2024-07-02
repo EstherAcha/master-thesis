@@ -1,0 +1,2 @@
+# Activate the environment
+source VENVS/master_thesis_venv/bin/activate

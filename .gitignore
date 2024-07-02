@@ -1,0 +1,14 @@
+# This a file to git to ignore certain files
+
+# Ignore raw data folder
+data/raw/
+
+# not ignore data processed
+!data/processed
+
+# Ignore trials folder
+src/trials/
+
+# Ignore pycache
+src/data/__pycache__/
+src/data/visualization/__pycache__/
